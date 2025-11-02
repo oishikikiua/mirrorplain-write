@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title MirrorPlain Write - Writing Analytics with FHE
 /// @notice Encrypted writing statistics (word count & time) with milestone tracking
 /// @dev Uses FHEVM native operations for privacy-preserving analytics
+/// @author oishikikiua
 contract MirrorPlainWrite is ZamaEthereumConfig {
     // Core encrypted state
     mapping(address => euint32) private userTotalWords;
