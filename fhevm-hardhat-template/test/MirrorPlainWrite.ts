@@ -2,6 +2,7 @@ import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { ethers, fhevm } from "hardhat";
 import { MirrorPlainWrite, MirrorPlainWrite__factory } from "../types";
 import { expect } from "chai";
+import { describe, it } from "mocha";
 import { FhevmType } from "@fhevm/hardhat-plugin";
 
 type Signers = {
