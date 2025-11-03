@@ -10,7 +10,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     log: true,
   });
 
-  console.log(`MirrorPlainWrite contract: `, deployedMirrorPlainWrite.address);
+  console.log(`MirrorPlainWrite contract deployed at: `, deployedMirrorPlainWrite.address);
 };
 
 export default func;
