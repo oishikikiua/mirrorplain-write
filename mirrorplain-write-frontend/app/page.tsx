@@ -17,6 +17,7 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">
               Privacy-First Writing Analytics
             </h1>
+            {/* Hero section with gradient title */}
             <p className="text-xl md:text-2xl text-[var(--color-text-secondary)] max-w-3xl mx-auto">
               Track your writing progress with fully encrypted data on FHEVM
             </p>
