@@ -58,6 +58,10 @@ const selectedAnimation = ANIMATIONS[(SEED >> 9) % ANIMATIONS.length];
 /**
  * Design Tokens Export
  */
+/**
+ * Design tokens for MirrorPlain Write
+ * Generated from deterministic seed based on project name and network
+ */
 export const designTokens = {
   // Metadata
   seed: SEED,
