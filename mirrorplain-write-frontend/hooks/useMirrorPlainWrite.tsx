@@ -1,5 +1,10 @@
 "use client";
 
+/**
+ * Custom hook for interacting with MirrorPlainWrite contract
+ * Handles encrypted entry submission and goal management
+ */
+
 import { useState, useCallback, useEffect } from "react";
 import { ethers, Contract } from "ethers";
 import { FhevmInstance } from "@/fhevm/fhevmTypes";
