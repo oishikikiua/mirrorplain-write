@@ -1,6 +1,9 @@
 /**
  * FHEVM Instance Creation
  * Supports dual modes: Mock (local Hardhat) and Relayer (Sepolia/production)
+ * 
+ * This module handles the initialization and management of FHEVM instances
+ * with automatic mode detection based on chain ID and relayer metadata.
  */
 
 import { isAddress, Eip1193Provider, JsonRpcProvider } from "ethers";
